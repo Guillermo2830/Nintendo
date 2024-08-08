@@ -13,4 +13,12 @@ document.addEventListener('DOMContentLoaded', () => {
         delay: 200,
         origin: 'top'
     });
+    sr.reveal('.biography', {
+        delay: 200,
+        origin: 'top'
+    });
+    sr.reveal('.biography__img', {
+        delay: 200,
+        origin: 'top'
+    });
 });
