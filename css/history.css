@@ -43,29 +43,34 @@
     width: 100%;
     height: auto;
     align-content: center;
+    text-align: center;
 }
 
 .history__description p {
 
-    font-size: 26px;
+    font-size: 30px;
 }
 
 
 .sub__description {
     display: flex;
     justify-content: space-between;
-    width: 50%;
+    align-items: center;
+    align-content: center;
+    place-content: center;
+    width: 60%;
     height: auto;
     margin-top: 30px;
 }
 
 .sub__description ul {
-    list-style-type: disc;
+    list-style-type: disc; 
     
 }
 
 .sub__description li::marker {
     color: white;
+    font-size: 2.9rem;
 }
 
 .sub__description ul li {
@@ -81,7 +86,7 @@
     grid-column-gap: 0px;
     grid-row-gap: 0px;
     width: 100%;
-    height: 800px;
+    height: 700px;
     justify-content: center;
     place-items: center;
     position: relative;
@@ -99,6 +104,7 @@
     justify-content: center;
     place-items: center;
     gap: 30px;
+    margin-left: 160px;
 }
 
 .text-1 {
@@ -127,14 +133,14 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 .wame__watch__img {
-    width: auto;
+    width: 80%;
     height: auto;
     grid-area: 1 / 2 / 2 / 3;
     display: flex;
     justify-content: center;
     align-items: center;
     background: red;
-    margin-right: 20px;
+    margin-right: 100px;
 }
 
 .wame__watch__img img {
@@ -167,6 +173,85 @@
 .wall-image img {
     width: 100%;
     height: auto;
+}
+
+.cloud-container {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    top: 50px;
+}
+
+
+.tube-container {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.box__coin-container {
+    position: absolute;
+    bottom: 50%;
+    left: 100px;
+    
+}
+
+.arbusto-container {
+    position: absolute;
+    bottom: 50px;
+}
+
+.description__history__contanier {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    width: 100%;
+    height: 500px;
+    justify-content: center;
+    place-items: center;
+    position: relative;
+    background-repeat: repeat-x; /* Para repetir el muro horizontalmente */
+    background-size: contain;
+}
+
+.description__history {
+    grid-area: 1 / 1 / 2 / 2;
+    max-width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 9px;
+    
+}
+
+.description__history h1 {
+    font-size: 40px;
+    font-family: "Archivo Black", sans-serif;
+}
+
+.description__history p {
+    font-size: 24px;
+    line-height: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.description__history img {
+    width: 80px;
+}
+
+.wame__hands {
+    grid-area: 1 / 2 / 2 / 3;
+    position: absolute;
+    bottom: 0;
+}
+
+.wame__hands img {
+     width: 700px;
+     height: auto;
 }
 
 /* .wall-image {
