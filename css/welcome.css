@@ -1,58 +1,40 @@
 .container__1 {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: 1fr;
-    grid-column-gap: 0px;
-    grid-row-gap: 0px;
-    width: 100%;
-    height: auto;
-    justify-content: center;
-    place-items: center;
-    background: var(--red-mario);
 
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    background: var(--red-mario);
 }
 
 .info__page {
-    width: 100vh;
-    height: auto;
-    grid-area: 1 / 1 / 2 / 2;
+    width: 60%;
+    height: 180px;
+    border: 3px solid black;
+    border-radius: 90px;
+    border-top-right-radius: 8px;
+    border-bottom-left-radius: 8px;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    margin-bottom: 80px;
-    margin-left: 30%;
-   
+    padding: 30px;
+    background: white;
+    box-shadow:26px 26px 52px black
+    
 }
 
 .info__page h1 {
-    text-align: center;
-    margin-bottom: 10px;
-    font-size: 60px;
-    font-family: "Archivo Black", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    color: white;
-    
+
+     margin-bottom: 10px;
+     font-family: "Archivo Black", sans-serif;
+     font-weight: bold;
 }
 
 .info__page p {
-    font-family: "Archivo Black", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    text-align: justify;
-    color: white;
-    font-size: 30px;
-    
-}
-
-.img__container {
-    grid-area: 1 / 2 / 2 / 3;
-    margin-right: 100px;
-}
-
-.img__mario:hover {
-
-    transform: scale(1.07);
-    transition: 2s;
+    font-family: 'Archivo Black';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
 }
