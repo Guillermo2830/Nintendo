@@ -1,0 +1,51 @@
+.footer {
+    display: flex;
+    justify-content: center;
+    background: red;
+    
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    cursor: pointer;
+    font-size: 30px;
+    text-align: center;
+}
+
+.footer__info__left {
+    width: 100%;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: var(--red-mario);
+}
+
+.footer__info__left img {
+    position: absolute;
+    width: 10%;
+    left: 0;
+    margin-bottom: 90px;
+}
+
+.footer__info__right {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer__logo{
+   width: 100%;
+   display: flex;
+   justify-content: left;
+}
+
+.footer__logo img {
+    width: 150px;
+    height: auto;
+    object-fit: cover;
+}
