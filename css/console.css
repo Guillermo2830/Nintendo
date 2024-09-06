@@ -1,6 +1,7 @@
 .clasic__consoles__container {
     display: flex;
     justify-content: center;
+    flex-direction: column;
     width: 100%;
     background: black;
 
@@ -11,6 +12,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 700px;
+    padding: 20px;
 }
 
 .consol__NES img {
@@ -22,7 +25,9 @@
     display: flex;
     flex-direction: column;
     color: white;
-    padding: 15px;
+    padding: 30px;
+    border: 8px solid white;
+    border-radius: 18px;
     
 }
 
@@ -30,9 +35,157 @@
     text-align: center;
     font-size: 40px;
     margin-bottom: 30px;
+    font-family: 'Archivo Black';
+    font-style: normal;
 
 }
 
 .console__info p {
     font-size: 20px;
+    font-family: 'Archivo Black';
+    font-style: normal;
+    font-weight: 400;
+    text-align: justify;
 }
+
+/*Game boy part*/
+
+.gameboy__container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: auto;
+}
+
+.gameboy__tittle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 30px;
+    height: 100px;
+    font-family: 'Archivo Black';
+    font-style: normal;
+}
+
+.gameboy {
+    display: flex;
+    flex-wrap: nowrap; /* Cambia a nowrap para que las tarjetas no se envuelvan */
+    gap: 30px;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 20px;
+    background: black;
+    width: 100%;
+    overflow-x: auto;
+    
+    
+  }
+  
+  .gameboy__cards {
+    width: 350px;
+    height: 400px; 
+    perspective: 1000px;
+    flex-shrink: 0;
+  }
+  
+  .gameboy__card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+  }
+  
+  .gameboy__cards:hover .gameboy__card-inner {
+    transform: rotateY(180deg);
+  }
+  
+  .gameboy__card-front,
+  .gameboy__card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    border-radius: 9px;
+  }
+  
+  .gameboy__card-front {
+    background-color: white;
+    border: 1px solid black;
+    box-shadow: 15px 15px 30px black;
+    padding: 16px;
+    text-align: center;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .gameboy__1989_img {
+   width: 70%;
+    
+  }
+  .gameboy__1996_img {
+    width: 50%;
+  }
+  .gameboy__2001_img {
+    width: 100%;
+    height: 200px;
+
+  }
+  .gameboy__2003_img {
+   width: 100%;
+  }
+  .gameboy__2005_img {
+    width: 100%;
+  }
+
+  .gameboy__card-front p {
+    margin-top: 16px;
+    font-weight: bold;
+    font-family: "Archivo Black", sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    position: absolute;
+    bottom: 0;
+    left: 38%;
+  }
+  
+  .gameboy__card-back {
+    background-color: #f0f0f0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: rotateY(180deg);
+    text-align: center;
+    font-size: 30px;
+    border-radius: 30px;
+    font-family: "Archivo Black", sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  .gameboy__cards:nth-of-type(1) .gameboy__card-back {
+    background-color: #CFCECF;
+  }
+
+  .gameboy__cards:nth-of-type(2) .gameboy__card-back {
+    background-color: #CFCECF;
+  }
+
+  .gameboy__cards:nth-of-type(3) .gameboy__card-back {
+    background-color: #8829C6; 
+  }
+
+  .gameboy__cards:nth-of-type(4) .gameboy__card-back {
+    background-color: #24D2D5; 
+  }
+
+  .gameboy__cards:nth-of-type(5) .gameboy__card-back {
+    background-color: #CFCECF; 
+  }
+
+
+
+  

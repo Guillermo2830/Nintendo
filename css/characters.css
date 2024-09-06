@@ -13,7 +13,7 @@
   font-size: 40px;
   display: flex;
   justify-content: center;
-  background-color: var(--red-mario);
+  background-color:#0051ba;
   font-family: "Archivo Black", sans-serif;
   font-weight: bold;
   color: white;
@@ -34,6 +34,10 @@
   justify-content: center;
   align-items: center;
   background-color: #0051ba;
+  object-fit: cover;
+  background-image: url('../img/wallpaper_mario-3.jpg');
+  background-size: cover; /* Asegura que la imagen cubra todo el fondo */
+  background-position: center; 
   
 }
 
@@ -44,6 +48,10 @@
   justify-content: center;
   align-items: center;
   background-color: #8b4513;
+  object-fit: cover;
+  background-image: url('../img/donkey_kong_wallpaper.jpg');
+  background-size: cover; /* Asegura que la imagen cubra todo el fondo */
+  background-position: center; 
 }
 
 .container__ch__description-pikachu {
@@ -53,6 +61,10 @@
   justify-content: center;
   align-items: center;
   background-color: #F0F008;
+  object-fit: cover;
+  background-image: url('../img/wallpaper-pikachu-2.jpg');
+  background-size: cover; /* Asegura que la imagen cubra todo el fondo */
+  background-position: center; 
 }
 
 .container__ch__description-zelda {
@@ -62,6 +74,17 @@
   justify-content: center;
   align-items: center;
   background-color: #556b2f;
+  object-fit: cover;
+  background-image: url('../img/wallpaper-zelda.jpg');
+  background-size: cover; /* Asegura que la imagen cubra todo el fondo */
+  background-position: center; 
+}
+.container__ch__description-zelda .description h1  {
+  color: black;
+}
+
+.container__ch__description-zelda .description p  {
+  color: black;
 }
 
 /*.container__ch__description img {
@@ -72,11 +95,13 @@
   
 }*/
 
-.mario__img {
+/*.mario__img {
   position: absolute;
   right: 20vh;
   width: 250px;
 }
+
+
 
 .donkey_kong__img {
   position: absolute;
@@ -94,10 +119,11 @@
   position: absolute;
   right: 5vh;
   width: 400px;
-}
+}*/
 
 .description {
   width: 40%; 
+  color: black;
 }
 
 .description h1 {
