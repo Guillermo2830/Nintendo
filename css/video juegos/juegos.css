@@ -1,6 +1,7 @@
+/*Mario Section*/
 .superMario_container {
     width: 100%;
-    height: 400px;
+    height: 500px;
     display: flex;
     justify-content: center;
     background: red;
@@ -48,5 +49,493 @@
     cursor: pointer;
     color: white;
     background: #0051ba;
+    border: 3px solid black;
+}
+
+/*Zelda section*/
+
+.zelda_container {
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    background: red;
+    background-image: url('../../img/wallpaper-zelda.jpg');
+    position: relative;
+    background-size: cover; /* Asegura que la imagen cubra todo el fondo */
+    background-position: center; 
+}
+
+.zelda__info {
+    position: absolute;
+    width: 40%;
+    height: 200px;
+    right: 0;
+    bottom: 30%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+}
+
+.zelda__info h1 {
+    margin-bottom: 15px;
+    font-size: 40px;
+    color: white ;
+}
+
+.zelda__info p {
+   margin-bottom: 15px;
+   font-size: 25px;
+   color: white;
+}
+
+.zelda__info button {
+    width: 150px;
+    height: 40px;
+    border-radius: 30px;
+    font-size: 20px; 
+    border: 3px solid black;
+}
+
+.zelda__info button:hover {
+    cursor: pointer;
+    color: white;
+    background: #0051ba;
+    border: 3px solid black;
+}
+
+/*Pokemon section*/
+
+.pokemon_container {
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    background: red;
+    background-image: url('../../img/wallpaper-pikachu-2.jpg');
+    position: relative;
+    background-size: cover; /* Asegura que la imagen cubra todo el fondo */
+    background-position: center; 
+}
+
+.pekemon__info {
+    position: absolute;
+    width: 40%;
+    height: 200px;
+    left: 0;
+    bottom: 30%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+}
+
+.pekemon__info h1 {
+    margin-bottom: 15px;
+    font-size: 40px;
+    color: white ;
+}
+
+.pekemon__info p {
+   margin-bottom: 15px;
+   font-size: 25px;
+   color: white;
+}
+
+.pekemon__info button {
+    width: 150px;
+    height: 40px;
+    border-radius: 30px;
+    font-size: 20px; 
+    border: 3px solid black;
+}
+
+.pekemon__info button:hover {
+    cursor: pointer;
+    color: white;
+    background: red;
+    border: 3px solid black;
+}
+
+/*Donkey Kong section*/
+.donkeyKong_container {
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    background: red;
+    background-image: url('../../img/donkey_kong_wallpaper-2.jpg');
+    position: relative;
+    background-size: cover; /* Asegura que la imagen cubra todo el fondo */
+    background-position: center; 
+}
+
+.donkeyKong__info {
+    position: absolute;
+    width: 40%;
+    height: 200px;
+    right: 0;
+    bottom: 30%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+}
+
+.donkeyKong__info h1 {
+    margin-bottom: 15px;
+    font-size: 40px;
+    color: black;
+}
+
+.donkeyKong__info p {
+   margin-bottom: 15px;
+   font-size: 25px;
+   color: black;
+}
+
+.donkeyKong__info button {
+    width: 150px;
+    height: 40px;
+    border-radius: 30px;
+    font-size: 20px; 
+    border: 3px solid black;
+}
+
+.donkeyKong__info button:hover {
+    cursor: pointer;
+    color: white;
+    background: #96794A ;
+    border: 3px solid black;
+}
+
+/*Metroid section*/
+.metroid_container {
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    background: red;
+    background-image: url('../../img/metroid.jpg');
+    position: relative;
+    background-size: cover; /* Asegura que la imagen cubra todo el fondo */
+    background-position: center; 
+}
+
+.metroid__info {
+    position: absolute;
+    width: 40%;
+    height: 200px;
+    left: 0;
+    bottom: 30%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+}
+
+.metroid__info h1 {
+    margin-bottom: 15px;
+    font-size: 40px;
+    color: black ;
+}
+
+.metroid__info p {
+   margin-bottom: 15px;
+   font-size: 25px;
+   color: black;
+}
+
+.metroid__info button {
+    width: 150px;
+    height: 40px;
+    border-radius: 30px;
+    font-size: 20px; 
+    border: 3px solid black;
+}
+
+.metroid__info button:hover {
+    cursor: pointer;
+    color: white;
+    background: red;
+    border: 3px solid black;
+}
+
+/*Animal Crossing section*/
+.animalCrossing_container {
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    background: red;
+    background-image: url('../../img/animal-crossing-wallpaper.jpg');
+    position: relative;
+    background-size: cover; /* Asegura que la imagen cubra todo el fondo */
+    background-position: center; 
+}
+
+.animalCrossing__info {
+    position: absolute;
+    width: 40%;
+    height: 200px;
+    right: 0;
+    bottom: 30%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+}
+
+.animalCrossing__info h1 {
+    margin-bottom: 15px;
+    font-size: 40px;
+    color: black ;
+}
+
+.animalCrossing__info p {
+   margin-bottom: 15px;
+   font-size: 25px;
+   color: black;
+}
+
+.animalCrossing__info button {
+    width: 150px;
+    height: 40px;
+    border-radius: 30px;
+    font-size: 20px; 
+    border: 3px solid black;
+}
+
+.animalCrossing__info button:hover {
+    cursor: pointer;
+    color: white;
+    background: red;
+    border: 3px solid black;
+}
+
+/*Splatoon section*/
+.splatoon_container {
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    background: red;
+    background-image: url('../../img/splatton-wallpaper.webp');
+    position: relative;
+    background-size: cover; /* Asegura que la imagen cubra todo el fondo */
+    background-position: center; 
+}
+
+.splatoon__info {
+    position: absolute;
+    width: 40%;
+    height: 200px;
+    left: 0;
+    bottom: 30%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+}
+
+.splatoon__info h1 {
+    margin-bottom: 15px;
+    font-size: 40px;
+    color: white ;
+}
+
+.splatoon__info p {
+   margin-bottom: 15px;
+   font-size: 25px;
+   color: white;
+}
+
+.splatoon__info button {
+    width: 150px;
+    height: 40px;
+    border-radius: 30px;
+    font-size: 20px; 
+    border: 3px solid black;
+}
+
+.splatoon__info button:hover {
+    cursor: pointer;
+    color: white;
+    background: red;
+    border: 3px solid black;
+}
+/*Kirby section*/
+
+.kirby_container {
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    background: red;
+    background-image: url('../../img/kirby-wallpaper.jpg');
+    position: relative;
+    background-size: cover; /* Asegura que la imagen cubra todo el fondo */
+    background-position: center; 
+}
+
+.kirby__info {
+    position: absolute;
+    width: 40%;
+    height: 200px;
+    right: 0;
+    bottom: 30%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+}
+
+.kirby__info h1 {
+    margin-bottom: 15px;
+    font-size: 40px;
+    color: black;
+}
+
+.kirby__info p {
+   margin-bottom: 15px;
+   font-size: 25px;
+   color: black;
+}
+
+.kirby__info button {
+    width: 150px;
+    height: 40px;
+    border-radius: 30px;
+    font-size: 20px; 
+    border: 3px solid black;
+}
+
+.kirby__info button:hover {
+    cursor: pointer;
+    color: white;
+    background: #FD57B4 ;
+    border: 3px solid black;
+}
+
+/*FireEmble section*/
+.fireEmble_container {
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    background: red;
+    background-image: url('../../img/fire-emblem-wallpaper.jpg');
+    position: relative;
+    background-size: cover; /* Asegura que la imagen cubra todo el fondo */
+    background-position: center; 
+}
+
+.fireEmble__info {
+    position: absolute;
+    width: 40%;
+    height: 200px;
+    left: 0;
+    bottom: 30%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+}
+
+.fireEmble__info h1 {
+    margin-bottom: 15px;
+    font-size: 40px;
+    color: black;
+}
+
+.fireEmble__info p {
+   margin-bottom: 15px;
+   font-size: 25px;
+   color: black;
+}
+
+.fireEmble__info button {
+    width: 150px;
+    height: 40px;
+    border-radius: 30px;
+    font-size: 20px; 
+    border: 3px solid black;
+}
+
+.fireEmble__info button:hover {
+    cursor: pointer;
+    color: white;
+    background: red;
+    border: 3px solid black;
+}
+
+/*SuperSmashBross section*/
+.superSmashBros_container {
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    background: red;
+    background-image: url('../../img/smash-wallpaper.webp');
+    position: relative;
+    background-size: cover; /* Asegura que la imagen cubra todo el fondo */
+    background-position: center; 
+}
+
+.superSmashBros__info {
+    position: absolute;
+    width: 40%;
+    height: 200px;
+    right: 0;
+    bottom: 30%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+}
+
+.superSmashBros__info h1 {
+    margin-bottom: 15px;
+    font-size: 40px;
+    color: white ;
+}
+
+.superSmashBros__info p {
+   margin-bottom: 15px;
+   font-size: 25px;
+   color: white;
+}
+
+.superSmashBros__info button {
+    width: 150px;
+    height: 40px;
+    border-radius: 30px;
+    font-size: 20px; 
+    border: 3px solid black;
+}
+
+.superSmashBros__info button:hover {
+    cursor: pointer;
+    color: white;
+    background: red;
     border: 3px solid black;
 }
