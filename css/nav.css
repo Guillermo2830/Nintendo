@@ -15,7 +15,7 @@
 
 a {
    text-decoration: none;
-   color: black;
+   color:black;
    font-family: "Archivo Black", sans-serif;
     font-weight: 400;
     font-style: normal;
@@ -38,7 +38,7 @@ a:hover{
 }
 
 .nav__link {
-   color: #303440;
+   color: black;
    display: block;
    padding: 17px 0;
    text-decoration: none;
@@ -74,7 +74,7 @@ a:hover{
    gap: 40px;
    width: 650px;
    height: 80px;
-   border: 7px solid var(--black);
+   border: 7px solid black;
    border-radius: 40px;
    background: white;
    
