@@ -3,7 +3,7 @@
     justify-content: center;
     flex-direction: column;
     width: 100%;
-    background: black;
+    background: #252525;
 
 }
 
@@ -76,7 +76,7 @@
     justify-content: flex-start;
     align-items: center;
     padding: 20px;
-    background: black;
+    background: #252525;
     width: 100%;
     overflow-x: auto;
     

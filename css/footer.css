@@ -1,7 +1,7 @@
 .footer {
     display: flex;
     justify-content: center;
-    background: red;
+    background: #252525;
     
 }
 
@@ -10,7 +10,7 @@ ul {
 }
 
 li {
-    cursor: pointer;
+
     font-size: 30px;
     text-align: center;
 }
@@ -21,7 +21,11 @@ li {
     display: flex;
     justify-content: center;
     align-items: center;
-    background: var(--red-mario);
+    
+}
+.footer__info__left ul li a {
+    font-size: 20px;
+    color: white;
 }
 
 .footer__info__left img {
@@ -36,6 +40,11 @@ li {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.footer__info__right ul li a {
+    font-size: 20px;
+    color: white;
 }
 
 .footer__logo{
